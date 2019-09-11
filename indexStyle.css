@@ -1,0 +1,29 @@
+body {
+	background-image: url("starter_files/images/store-interior.jpg");
+	background-color: rgba(107, 197, 107, 0.3);
+	background-repeat: no-repeat;
+}
+h1 {
+	display: flex;
+	justify-content: center;
+	color: #f0f0f0;
+	background-color: blue;
+	font-size: 28px;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 10px;
+	padding: 1em;
+}
+.navBar {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: rgb(107, 197, 107);
+	font-size: 18px;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 15px;
+	padding: 1rem;
+}
+p {
+	color: white;
+}

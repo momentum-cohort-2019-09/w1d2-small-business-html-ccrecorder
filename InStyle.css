@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.navBar {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: rgb(107, 197, 107);
+	font-size: 18px;
+	font-family: Verdana, Tahoma, sans-serif;
+	margin: 20px;
+	padding: 2em;
+}
+h1 {
+	display: flex;
+	color: rgb(45, 45, 145);
+	font-family: Verdana, Tahoma, sans-serif;
+	justify-content: center;
+}
+.flowerGrid {
+	list-style-type: none;
+}
+.flowerCards {
+	display: flex;
+	flex-direction: row-reverse;
+	align-content: center;
+}
+img {
+	margin: 5px;
+	width: 100px;
+}
+p {
+	margin: 5px;
+}
